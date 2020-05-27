@@ -32,7 +32,7 @@ export default function Book({ navigation }) {
                 style={styles.input}
                 placeholder="Qual data você quer reservar?"
                 placeholderTextColor="#999"
-                keyboardType="words"
+                keyboardType="default"
                 autoCapitalize="none"
                 autoCorrect={false}
                 value={date}
